@@ -5,7 +5,6 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<title>Our Vineyard</title>
 	<style type="text/css">
-		
 		@import url('https://fonts.googleapis.com/css?family=Parisienne');
 
 		body {
@@ -122,6 +121,16 @@
 				padding: 0px 20px 0px 60px !important;
 				background: url(./images/icon_camera.gif) no-repeat 10px -23px;
 			}
+
+			video {
+				width: 416px !important;
+				height: 312px !important;
+			}
+
+			video img {
+				width: 416px !important;
+				height: 312px !important;
+			}
 		}
 
 		@media only screen and (max-width: 510px) {
@@ -216,6 +225,16 @@
 			td.callout table br.spacer {
 				display: inline;
 			}
+
+			video {
+				width: 300px !important;
+				height: 255px !important;
+			}
+
+			video img {
+				width: 300px !important;
+				height: 255px !important;
+			}
 		}
 	</style>
 </head>
@@ -243,7 +262,8 @@
 					<tr>
 						<!-- headline row -->
 						<td valign="top" class="headline" bgcolor="#ffffff" style="padding: 15px 20px 5px 30px; border-left: 1px solid #dbc064; border-right: 1px solid #dbc064; font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 22px;">
-							<h1 style="margin: 0px 0px 15px 0px; font-weight: normal; font-family: 'Parisienne', Arial; font-size: 32px; color: #723c7f;">Main Heading Here</h1>
+							<h1 style="margin: 0px 0px 15px 0px; font-weight: normal; font-family: 'Parisienne', Arial; font-size: 32px; color: #723c7f;">Main
+								Heading Here</h1>
 						</td>
 					</tr>
 					<tr>
@@ -279,32 +299,12 @@
 					<tr>
 						<!-- promos row -->
 						<td valign="top" bgcolor="#f5f2e5" class="promos" style="padding: 10px 30px 25px 30px; border-right:1px solid #dbc064; border-left:1px solid #dbc064; background-color: #f5f2e5; font-family: Arial, Helvetica, sans-serif;">
-							<table class="promo_1" width="270" align="left">
-								<tr>
-									<td>
-										<!-- promo 1 content -->
-										<img class="promo" alt="Promo image 1" src="images/promo_1_large.jpg">
-										<h3 style="font-size:16px;">Promo heading here</h3>
-										Lorem ipsum dolor sit amet consectetur incididunt ut labore et dolore magna aliqua elit sed do eiusmod.
-										<br><br>
-										<a href="#" style="background-color: #71a421; border-radius: 5px; color: #ffffff; padding: 5px 10px 5px 10px; text-decoration: none; text-shadow: 0px 2px 2px #3a5606;">Learn
-											more</a>
-									</td>
-								</tr>
-							</table>
-							<table class="promo_2" width="270" align="right">
-								<tr>
-									<td>
-										<!-- promo 2 content -->
-										<img class="promo" alt="Promo image 2" src="images/promo_2_large.jpg">
-										<h3 style="font-size:16px;">Promo heading here</h3>
-										Lorem ipsum dolor sit amet consectetur incididunt ut labore et dolore magna aliqua elit sed do eiusmod.
-										<br><br>
-										<a href="#" style="background-color: #71a421; border-radius: 5px; color: #ffffff; padding: 5px 10px 5px 10px; text-decoration: none; text-shadow: 0px 2px 2px #3a5606;">Learn
-											more</a>
-									</td>
-								</tr>
-							</table>
+							<video width="570" height="428" poster="./video/our_vineyard.jpg" controls="controls">
+								<source src="./video/our_vineyard.mp4" type="video/mp4">
+								<a href="https://samplesite.com/video.html">
+									<img src="./video/our_vineyard.jpg">
+								</a>
+							</video>
 						</td>
 					</tr>
 					<tr>
