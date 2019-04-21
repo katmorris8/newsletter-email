@@ -290,7 +290,61 @@
 					background-image: url(images/icon_camera_2x.gif);
 					background-size: 75px 75px;
 				}
-				
+			}
+
+				/* high definition graphics for small screens */
+				@media
+				only screen and (max-width: 510px) and (-webkit-min-device-pixel-ratio: 2),
+				only screen and (max-width: 510px) and (min--moz-device-pixel-ratio: 2),
+				only screen and (max-width: 510px) and (-o-min-device-pixel-ratio: 2/1),
+				only screen and (max-width: 510px) and (min-device-pixel-ratio: 2),
+				only screen and (max-width: 510px) and (min-resolution: 192dpi),
+				only screen and (max-width: 510px) and (min-resolution: 2dppx)
+			{
+				td.logo {
+					background-image: url(images/logo_small_2x.gif);
+					background-size: 260px 25px;
+				}
+
+				td.banner {
+					background-image: url(images/banner_small_2x.jpg);
+					background-size: 510px 115px;
+				}
+
+				td.content {
+					background-image: url(images/banner_small_ghost_2x.jpg) !important;
+					background-size: 510px 70px;
+				}
+
+				td.promos table.promo_1 td {
+					background-image: url(images/promo_1_small_2x.jpg);
+					background-size: 85px 85px;
+				}
+
+				td.promos table.promo_2 td {
+					background-image: url(images/promo_2_small_2x.jpg);
+					background-size: 85px 85px;
+				}
+
+				td.callout table.callout_1 td {
+					background-image: url(images/icon_grapes_2x.gif);
+					background-size: 75px 75px;
+				}
+
+				td.callout table.callout_2 td {
+					background-image: url(images/icon_bottle_2x.gif);
+					background-size: 75px 75px;
+				}
+
+				td.callout table.callout_3 td {
+					background-image: url(images/icon_basket_2x.gif);
+					background-size: 75px 75px;
+				}
+
+				td.callout table.callout_4 td {
+					background-image: url(images/icon_camera_2x.gif);
+					background-size: 75px 75px;
+				}
 			}
 	</style>
 </head>
